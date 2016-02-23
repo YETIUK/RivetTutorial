@@ -7,11 +7,11 @@ namespace Rivet {
 
 
     /// @brief MC validation analysis for Z + jets events
-    class YETI_ZJETS : public Analysis {
+    class LHADA_ZJETS : public Analysis {
         public:
 
             /// Default constructor
-            YETI_ZJETS(const string& name = "YETI_ZJETS")
+            LHADA_ZJETS(const string& name = "LHADA_ZJETS")
                 : Analysis(name) { }
 
 
@@ -100,6 +100,6 @@ namespace Rivet {
 
 
     // The hooks for the plugin system
-    DECLARE_RIVET_PLUGIN(YETI_ZJETS);
+    DECLARE_RIVET_PLUGIN(LHADA_ZJETS);
 
 }
